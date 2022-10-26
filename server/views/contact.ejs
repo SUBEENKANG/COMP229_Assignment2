@@ -1,0 +1,46 @@
+<%- include partials/header.ejs %>
+
+    <%- include partials/main_nav.ejs %>
+
+        <!-- Main Content -->
+        <main class="container">
+            <!-- Contact ways -->
+            <div class="contact_contents">
+                <p>
+                    <a href="tel:647-979-9882">Phone: 437-988-7557 </a>
+                    <br>
+                    <br>
+                    <a href="mailto: skang81@centennialcollege.ca">Email: skang82@centennialcollege.ca</a>
+                    <br>
+                    <br>
+                    <a href="https://www.google.com/maps/place/6+Brill+Crescent,+North+York,+ON+M2R+2X3/@43.7826389,-79.4399337,17z/data=!3m1!4b1!4m5!3m4!1s0x882b2dbb87089c79:0x38be86c377464c6b!8m2!3d43.7826389!4d-79.4399337"
+                        target="_blank">
+                        Address: 6 Brill Crescent Ave, North York, Ontario, Canada</a>
+                    <br>
+                    <br>
+                <h2 id="click">Contact me if you want</h2>
+                </p>
+            </div>
+            <!-- Contact ways -->
+            <!-- Contact infomation -->
+            <div class="contact_input">
+                <form action="/home">
+                    <input type="text" placeholder="First Name" name="first">
+                    <input type="text" placeholder="Last Name" name="last">
+                    <br>
+                    <input type="text" placeholder="Phone Number" name="phone">
+                    <input type="text" placeholder="Email Address" name="email">
+                    <br>
+                    <textarea placeholder=" Write your message" name="message" id="message" cols="30"
+                        rows="10"></textarea>
+                    <br>
+                    <input id="sub_button" type="submit" value="Submit">
+                </form>
+            </div>
+            <!-- Contact infomation -->
+        </main>
+        <!-- Main Content -->
+
+        <%- include partials/bottom_nav.ejs %>
+
+            <%- include partials/footer.ejs %>
